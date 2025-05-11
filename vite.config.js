@@ -20,7 +20,8 @@ export default defineConfig({
         changeOrigin: true,
         secure: true
       }
-    }
+    },
+    allowedHosts: ['gold-vo20.onrender.com']
   },
   // Custom build options
   build: {
@@ -28,4 +29,5 @@ export default defineConfig({
     emptyOutDir: true,
     sourcemap: true,
   },
+  
 }); 
